@@ -44,7 +44,7 @@ public class ClassRoom {
      */
     public List<Optional<String>> getDistinctSubjectsByRoomId(
             final String classRoomId) {
-        if (classRoomId != this.roomId) {
+        if (!classRoomId.equals(roomId)) {
             return null;
         }
         List<Optional<String>> distinctSubject = studentList.get()

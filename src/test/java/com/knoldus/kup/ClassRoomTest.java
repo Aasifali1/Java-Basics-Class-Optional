@@ -4,13 +4,18 @@ import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * ClassRoom test cases.
+ */
 public class ClassRoomTest extends TestCase {
-
+    
+    /**
+     * List for testing.
+     */
     List<Student> studentList1, studentList2;
     ClassRoom classRoom1, classRoom2;
 
